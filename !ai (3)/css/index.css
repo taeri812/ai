@@ -39,6 +39,16 @@ img{
     font-family: 'NanumSquare', sans-serif ;
 }
 
+.row{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.cell{
+    float: left;
+}
+
 .main_header {
     width: 100%;
     height: 80px;
@@ -174,22 +184,176 @@ img{
     margin: 0 auto;
 }
 
-/*인물슬라이드*/
-.slide_wrap{
-    max-width: 1200px;
-    padding: 50px 0px;
-    margin: 0 auto;
-    box-sizing: border-box;
-    background-color: rgb(245, 245, 245, 0.6);
-    display: flex;
-    justify-content: center;
+
+/*섹션3*/
+.section3-wrap{
+    width: 1200px;
+    height: 400px;
+    background-color:#eee; 
+    margin: 70px auto;
+    position: relative;
+}
+
+.section3-wrap > .section3-wrap-box{
+    width: 1010px;
+    top: 22%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
 }
 
 
-.img_slide{
-    width: 200px;
-    padding: 0 20px;
+/*11111111111111111111111111111111111111111111111111111111111111111111111111111*/
+.section3-wrap > .section3-wrap-box > .section3-1-box{
+    width: 230px;
+    height: 230px;
+    position: relative;
 }
+
+.section3-wrap > .section3-wrap-box > .section3-1-box > .section3-txt-1{
+    width: 150px;
+    height: 90px;
+    background-color: white;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 139px;
+    background-color: #fff;
+    position: absolute;
+}
+
+.section3-wrap > .section3-wrap-box > .section3-1-box > .section3-txt-1 > p{
+    line-height: 90px;
+    font-weight: bold;
+}
+
+
+/*2222222222222222222222222222222222222222222222222222222222222222222222222222222*/
+.section3-wrap > .section3-wrap-box > .section3-2-box{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    margin-left: 30px;
+}
+
+.section3-wrap > .section3-wrap-box > .section3-2-box > .section3-txt-2{
+    width: 150px;
+    height: 90px;
+    background-color: white;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 139px;
+    background-color: #fff;
+    position: absolute;
+}
+
+.section3-wrap > .section3-wrap-box > .section3-2-box > .section3-txt-2 > p{
+    line-height: 90px;
+    font-weight: bold;
+}
+
+
+
+/*3333333333333333333333333333333333333333333333333333333333333333333333333333333*/
+.section3-wrap > .section3-wrap-box > .section3-3-box{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    margin-left: 30px;
+}
+
+.section3-wrap > .section3-wrap-box > .section3-3-box > .section3-txt-3{
+    width: 150px;
+    height: 90px;
+    background-color: white;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 139px;
+    background-color: #fff;
+    position: absolute;
+}
+
+.section3-wrap > .section3-wrap-box > .section3-3-box > .section3-txt-3 > p{
+    line-height: 90px;
+    font-weight: bold;
+}
+
+
+
+/*444444444444444444444444444444444444444444444444444444444444444444444444444444444*/
+.section3-wrap > .section3-wrap-box > .section3-4-box{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    margin-left: 30px;
+}
+
+.section3-wrap > .section3-wrap-box > .section3-4-box > .section3-txt-4{
+    width: 150px;
+    height: 90px;
+    background-color: white;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 139px;
+    background-color: #fff;
+    position: absolute;
+}
+
+.section3-wrap > .section3-wrap-box > .section3-4-box > .section3-txt-4 > p{
+    line-height: 90px;
+    font-weight: bold;
+}
+
+
+/*55555555555555555555555555555555555555555555555555555555555555555555555555555555555*/
+.section3-wrap > .section3-wrap-box > .section3-5-box{
+    width: 230px;
+    height: 230px;
+    position: relative;
+}
+
+.section3-wrap > .section3-wrap-box > .section3-5-box > .section3-txt-5{
+    width: 150px;
+    height: 90px;
+    background-color: white;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 139px;
+    background-color: #fff;
+    position: absolute;
+}
+
+.section3-wrap > .section3-wrap-box > .section3-5-box > .section3-txt-5 > p{
+    line-height: 90px;
+    font-weight: bold;
+}
+
+
+
+
+/*666666666666666666666666666666666666666666666666666666666666666666666666666666666666*/
+.section3-wrap > .section3-wrap-box > .section3-6-box{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    margin-left: 30px;
+}
+
+.section3-wrap > .section3-wrap-box > .section3-6-box > .section3-txt-6{
+    width: 150px;
+    height: 90px;
+    background-color: white;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 139px;
+    background-color: #fff;
+    position: absolute;
+}
+
+.section3-wrap > .section3-wrap-box > .section3-6-box > .section3-txt-6 > p{
+    line-height: 90px;
+    font-weight: bold;
+}
+
 
 
 
