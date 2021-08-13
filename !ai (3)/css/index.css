@@ -1,0 +1,397 @@
+@font-face {
+    font-family: 'NanumSquareRound';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0; 
+    padding: 0;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none; 
+    color: inherit;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'NanumSquare', sans-serif ;
+}
+
+img{
+    cursor: pointer;
+
+}
+
+.body{
+    width: 100%;
+    /* font-family: 'NanumSquare', sans-serif !important; */
+    font-family: 'NanumSquare', sans-serif ;
+}
+
+.main_header {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(245, 245, 245, 0.6);
+    padding: 0 60px ;
+    box-sizing: border-box;
+    transition: 0.5s;
+    z-index: 9;
+}
+
+.header_wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.header_icon {
+    display: flex;
+}
+
+.header_icon img{
+    width: 37px;
+}
+
+.header_content {
+    width: 60%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(245, 245, 245, 0.6);
+    overflow: hidden;
+    padding:  0 50px;
+    border-radius: 8px;
+}
+
+.header_content:hover {
+    height: 170px;
+    transition: 0.5s;
+    z-index: 9;
+}
+
+.header_text{
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.header_content span {
+    display: block;
+    font-weight: 400;
+    font-size: 14.5px;
+    text-align: center;
+}
+
+.header_wrap li a:hover{
+    color: #1A48FF;
+}
+
+.header_text ul {
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+.header_text ul li {
+    margin-top: 20px;
+}
+
+.logo_img {
+    width: 80%;
+}
+
+.header_icon img {
+    margin-left: 30px;
+    margin-top: 4px;
+}
+/* 메인 베너 */
+
+
+/*배너*/
+
+
+
+/*버튼*/
+.button_common {
+    padding: 25px 80px;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0);
+    border : 3px solid #1A48FF;
+    border-radius: 15px;
+    margin: 0 0px ;
+   font-size: 17px;
+   font-weight: 700;
+   line-height: 1.2em;
+   color: #1A48FF;
+   font-family: 'NanumSquareRound';
+}
+.button_common:hover {
+    background-color: #1A48FF;
+    color: white;
+    fill: white;
+    stroke: white;
+}
+
+
+.button_wrap {
+    max-width: 1200px;
+    height: 100%;
+    padding: 0 80px;
+    margin: 80px auto ;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.button_common span {
+    display: block;
+    font-size: 14px;
+}
+
+/*비디오*/
+.video_wrap{
+    max-width: 1200px;
+    padding: 80px 80px;
+    margin: 0 auto;
+}
+
+.video_box{
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*인물슬라이드*/
+.slide_wrap{
+    max-width: 1200px;
+    padding: 50px 0px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: rgb(245, 245, 245, 0.6);
+    display: flex;
+    justify-content: center;
+}
+
+
+.img_slide{
+    width: 200px;
+    padding: 0 20px;
+}
+
+
+
+
+
+/* 공지사항 notice */
+
+.main_notice {
+    max-width: 1200px;
+    height: 100%;
+    padding: 0 80px;
+    margin: 80px auto ;
+
+}
+.notice_head{
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+.notice_head h2{
+    font-size: 48px;
+}
+.notice_head h3 {
+    font-size: 24px;
+    margin-top: 8px;
+}
+.div_line {
+    width: 100%;
+    height: 3px;
+    background-color: #1A48FF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.more_button {
+    width: 120px;
+    height: 40px;
+    background-color: #1A48FF;
+    position: absolute;
+    right: 0px;
+    top: 65%;
+    border: 2px solid #1A48FF;
+    text-align: left;
+}
+.more_button:hover {
+    background-color: white;
+    border: 2px solid #1A48FF;
+}
+.more_button_line {
+    width: 24px;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+}
+
+
+.more_button_line:nth-child(1){
+    right: 15px;
+    top: 50%;
+}
+.more_button_line:nth-child(2){
+    right: 15px;
+    top: 30%;
+}
+.more_button_line:nth-child(3){
+    right: 15px;
+    top: 70%;
+}
+
+.more_button_p {
+    display: inline-block;
+    line-height: 40px;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    margin-top:0;
+}
+
+.more_button:hover >.more_button_line {
+    background-color: #1A48FF;
+}
+.more_button:hover >.more_button_p {
+    color: #1A48FF;
+}
+
+.notice_content_wrap {
+    width: 100%;
+    padding: 0 40px;
+
+    box-sizing: border-box;
+    font-family: 'NanumSquare', sans-serif ;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    display: flex;
+    justify-content: space-between;
+}
+.up_line{
+    border-top: 1px solid rgb(216, 216, 216);
+}
+
+.notice_content {
+    width: 60%;
+    margin-right: 50px;
+    font-size: 17px;
+    line-height: 40px;
+    padding: 10px 0;
+}
+
+.notice_date {
+    width: 10%;
+    text-align: center;
+    font-size: 17px;
+    line-height: 40px;
+    padding: 10px 0;
+}
+
+
+
+/*footer*/
+#footer {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(239, 239, 239);
+    margin-top: 90px;
+        font-family: 'NanumSquare', sans-serif ;
+}
+
+.footer_wrap{
+    max-width: 1200px;
+    margin: 0 auto; 
+    height: auto;
+    padding:  50px 80px 60px;
+    position: relative;
+
+    font-size: 15px;
+}
+.footer_wrap p {
+    margin-bottom: 8px;
+}
+.footer_more {
+    display: flex;
+    margin-top: 20px;
+}
+.footer_more a:hover {
+    color: #1A48FF;
+}
+
+
+.banner_linked {
+    text-decoration: none;
+    color: inherit;
+}
+.banner_linked:hover {
+    text-decoration: none;
+}
+
+.footer_content { 
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 50px;
+    font-weight: 700;
+    font-family: 'NanumSquare', sans-serif ;
+    margin-bottom: 20px;
+}
+
+.footer_content p{
+    font-family: 'NanumSquare', sans-serif ;
+}
+
+.footer_content img {
+    width: auto;
+    height: 40px;
+    margin-left: 40px;
+}
+/* .footer_content img:nth-child(6){
+    margin-left: -20px;
+} */
+/* 
+.footer_logo_img:nth-of-type(1){
+    height: 40px;
+}
+
+.footer_logo_img:nth-of-type(2){
+    height: 50px;
+}
+.footer_logo:nth-of-type(1){
+    height: 70px;
+}
+
+.footer_logo:nth-of-type(3){
+    padding-left: 8px;
+}
+.footer_logo:nth-of-type(4){
+    margin-left: 30px;
+}
+
+.footer_logo:nth-of-type(5){
+    margin-left: 0px;
+    margin-bottom: 8px;
+}
+ */
